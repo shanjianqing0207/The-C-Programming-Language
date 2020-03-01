@@ -10,4 +10,5 @@
 1.6 验证表达式getchar() != EOF的值是0还是1。<br>
 1.7 验证一个打印EOF值的程序。<br>
 ### 总结
-1.EOF为End Of File的缩写，通常情况下想要产生一个EOF，在linux下需要control+d，在windows下需要control+z
+1.EOF为End Of File的缩写，通常情况下想要产生一个EOF，在linux下需要control+d，在windows下需要control+z。<br>
+2.回车算一个字符数。<br>
