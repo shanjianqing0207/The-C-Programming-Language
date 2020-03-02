@@ -15,3 +15,4 @@
 ### 总结
 1. EOF为End Of File的缩写，通常情况下想要产生一个EOF，在linux下需要control+d，在windows下需要control+z。<br>
 2. 回车算一个字符数。<br>
+3. terminal是以行为单位向程序发送输入的。也就是说在按下Enter键之前terminal不会把输入的内容发送给程序。这也就意味着，在terminal中输入的Backspace只会让terminal将上一次输入的字符从buffer中删除，而不会将Backspace本身发送给程序。所以，若想输入回退符，可在头文件中添加conio.h，且gerchar()改为getch()，putchar()改为putch()。<br>
